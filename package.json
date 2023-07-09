@@ -1,0 +1,23 @@
+{
+  "name": "mylogomaker1.1",
+  "version": "1.0.0",
+  "description": "generate a simple logo for my projects",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "arundvp"
+  },
+  "keywords": [
+    "logo",
+    "maker"
+  ],
+  "author": "arun",
+  "license": "ISC"
+}
