@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,20 @@
     "maker"
   ],
   "author": "arun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.0",
+    "canvas": "^2.11.2",
+    "canvas-to-svg-2": "^2.5.0",
+    "d3": "^7.8.5",
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.5",
+    "jest": "^29.6.1",
+    "jsdom": "^22.1.0",
+    "svg": "^0.1.0",
+    "svg-builder": "^2.0.0",
+    "svg-canvas": "^1.0.2",
+    "svg.js": "^2.7.1",
+    "svgdom": "^0.1.14"
+  }
 }
