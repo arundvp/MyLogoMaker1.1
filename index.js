@@ -1,5 +1,5 @@
 // Imports the graceful-fs, inquirer, Circle, Square, and Triangle modules.
-const {Circle, Square, Triangle} = require("./lib/shapes");
+const {CircleShape, SquareShape, TriangleShape} = require("./lib/shapes");
 const filesystem = require("graceful-fs")
 const inquirer = require("inquirer");
 const fs = require('fs');
@@ -100,13 +100,13 @@ async function myLogoGenerator() {
 	// User shape
 	let user_shape;
 	if (user_shape_type === "square") {
-	  user_shape = new Square();
+	  user_shape = new SquareShape();
 	  console.log("User selected Square shape");
 	} else if (user_shape_type === "circle") {
-	  user_shape = new Circle();
+	  user_shape = new CircleShape();
 	  console.log("User selected Circle shape");
 	} else if (user_shape_type === "triangle") {
-	  user_shape = new Triangle();
+	  user_shape = new TriangleShape();
 	  console.log("User selected Triangle shape");
 	} else {
 	  console.log("Invalid shape!");
