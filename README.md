@@ -2,6 +2,20 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  ## Description
   The logo generation project is a command-line application that allows users to generate custom logos based on their input.
+
+  The logo generation project is a command-line application that allows users to generate custom logos based on their input. Here's a description of the project:
+
+1. The application prompts the user for text input, allowing them to enter up to three characters for the logo text.
+2. The user is then prompted for the text color, which can be specified using a color keyword or a hexadecimal number.
+3. Next, the user is presented with a list of shape options (circle, triangle, square) and asked to choose a shape for the logo.
+4. The user is prompted for the shape's color, similar to the text color input.
+5. Once the user has provided input for all the prompts, an SVG file is generated based on their choices.
+6. The SVG file is named `logo.svg` and saved in the specified directory.
+7. The application displays the message "Generated logo.svg" in the command line to indicate successful logo generation.
+8. The user can open the `logo.svg` file in a browser and view a 300x200 pixel image that matches the selected text, text color, shape, and shape color.
+
+The project utilizes various libraries and technologies, such as Node.js, SVG.js, inquirer for user prompts, fs for file operations, and canvas or jsdom for SVG rendering. It combines user input, shape classes, and SVG generation to create customized logos based on user preferences.
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
